@@ -2,15 +2,16 @@
   "name": "lodash-practice",
   "version": "0.0.0",
   "description": "Codefellows Foundations II: Workshop I, Lodash Practice",
-  "repository" : { 
-    "type" : "git", 
-    "url" : "https://github.com/mel-quark/lodash-practice.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mel-quark/lodash-practice.git"
   },
   "dependencies": {
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.10.0"
+    "lodash": "^2.4.1"
   },
   "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
     "grunt-jscs": "^0.8.1"
   }
 }
