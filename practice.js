@@ -4,3 +4,10 @@ var _ = require("./node_modules/lodash/lodash");
 if(_){
  console.log("lodash is defined!");
 }
+
+// ************* HELPER **************
+function assert(expression, failureMessage) {
+  if (!expression) {
+    console.log("assertion failure: ", failureMessage);
+  }
+}
